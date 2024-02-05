@@ -156,7 +156,9 @@ a {
     HEADER
 -------------------*/
 header {
-    background-color: #3161e0;    
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
     color: white;
 }
 .header-top {
@@ -183,18 +185,19 @@ header {
 }
 
 .hero-container  {
-    background-image: url("img/jumbo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     padding: 50px 0;
     display: flex;
     justify-content: center;
 }
 
 .hero {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 920px;
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /*-------------------
