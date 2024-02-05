@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
+    text-align: center;
 }
 a {
     color: inherit;
@@ -194,10 +195,16 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 920px;
+    max-width: 800px;
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.hero h1, .hero p {
+    margin-bottom: 30px;
+}
+.hero .button-dark, .hero .button-white {
+    margin: 0 15px;
 }
 
 /*-------------------
