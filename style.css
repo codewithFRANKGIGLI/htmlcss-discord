@@ -93,7 +93,7 @@ a {
 }
 
 .col-20 {
-    width: fit-content;
+    width: 20%;
 }
 .col-25 {
     width: 25%;
@@ -147,6 +147,7 @@ p {
     box-shadow: 0 8px 15px rgba(0,0,0,.2);
     cursor: pointer;
     border: 0;
+    width: fit-content;
 }
 .button-dark {
     color: #fff;
@@ -158,6 +159,7 @@ p {
     box-shadow: 0 8px 15px rgba(0,0,0,.2);
     cursor: pointer;
     border: 0;
+    width: fit-content;
 }
 .blue-button {
     font-size: 11pt;
@@ -168,6 +170,7 @@ p {
     border: 2px solid #7289da;
     color: #fff;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    width: fit-content;
   }
 /*-------------------
     HEADER
@@ -236,8 +239,12 @@ header {
 .row-2 h2, .row-2 p {
     text-align: right;
 }
-.col-100 h3 {
+.col-100 h2 {
     padding-bottom: 20px;
+    font-size: 30px;
+}
+.stars {
+    margin-bottom: -15px;
 }
 .col-text {
     padding: 50px;
@@ -246,15 +253,6 @@ header {
     justify-content: center;
 }
 
-.star {
-    background-image: url("img/stars.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-div .star {
-    height: 30px;
-}
 main section:nth-child(2n) {
     background-color: #d3d3d3;
 }
@@ -301,7 +299,6 @@ footer .fa-brands {
 footer .container:first-child {
     border-bottom: 2px solid #7289da22;
 }
-
 .footer-bottom {
     margin-top: 30px;
     padding: 20px 0;
