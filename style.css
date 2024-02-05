@@ -159,7 +159,16 @@ p {
     cursor: pointer;
     border: 0;
 }
-
+.blue-button {
+    font-size: 11pt;
+    border-radius: 40px;
+    padding: 7px 16px;
+    cursor: pointer;
+    background-color: #7289da;
+    border: 2px solid #7289da;
+    color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  }
 /*-------------------
     HEADER
 -------------------*/
@@ -227,7 +236,9 @@ header {
 .row-2 h2, .row-2 p {
     text-align: right;
 }
-
+.col-100 h3 {
+    padding-bottom: 20px;
+}
 .col-text {
     padding: 50px;
 }
@@ -256,15 +267,29 @@ footer {
     background-color: #23272a;
     color: white;
 }
+footer h3 {
+    color: #7289da;
+    font-size: 30px;
+}
+footer .col-30 {
+    padding: 0 50px
+}
 .footer-top {
     padding-top: 80px;
     padding-bottom: 40px;
     text-align: left;
 }
-
+footer .col-30 img {
+    max-width: 25px;
+}
+footer .fa-brands {
+    padding: 10px;
+}
 .col-25 ul {
     list-style: none;
     text-align: left;
+    line-height: 2;
+    font-size: small;
 }
 .col-25 li:first-child {
     color: #7289da;
