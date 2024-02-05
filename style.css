@@ -76,12 +76,6 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.container-fluid {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +122,9 @@
 /*-------------------
     HEADER
 -------------------*/
+header {
+    background-color: #3161e0;
+}
 .header-top {
     padding: 16px 0;
 }
@@ -136,6 +133,8 @@
     display: flex;
     list-style: none;
     justify-content: center;
+    color: white;
+    
 }
 .main-nav li {
     padding: 0 4px;
