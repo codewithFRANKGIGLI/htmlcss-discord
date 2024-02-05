@@ -246,11 +246,14 @@ header {
     justify-content: center;
 }
 
-.download {
+.star {
     background-image: url("img/stars.svg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+div .star {
+    height: 30px;
 }
 main section:nth-child(2n) {
     background-color: #d3d3d3;
