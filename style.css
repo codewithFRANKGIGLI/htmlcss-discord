@@ -210,6 +210,21 @@ header {
 /*-------------------
     MAIN
 -------------------*/
+
+.row-1 h2, .row-1 p{
+    text-align: left;
+}
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+p {
+    padding-top: 25px;
+}
+.col-text {
+    padding: 50px;
+}
+
 main section:nth-child(2n) {
     background-color: #d3d3d3;
 }
