@@ -111,7 +111,7 @@ a {
     width: 80%;
 }
 .col-100 {
-    width: 100%;
+    width: fit-content;
 }
 .col-grow {
     display: flex;
@@ -125,6 +125,13 @@ a {
 -------------------*/
 .bg-gray {
     background-color: #d3d3d3;
+}
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+p {
+    padding-top: 25px;
 }
 
 /*-------------------
@@ -214,17 +221,20 @@ header {
 .row-1 h2, .row-1 p{
     text-align: left;
 }
-h2 {
-    font-weight: 700;
-    font-size: 40px;
-}
-p {
-    padding-top: 25px;
-}
+
 .col-text {
     padding: 50px;
 }
+.row-4 {
+    justify-content: center;
+}
 
+.download {
+    background-image: url("img/stars.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 main section:nth-child(2n) {
     background-color: #d3d3d3;
 }
